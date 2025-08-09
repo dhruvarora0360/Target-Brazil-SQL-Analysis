@@ -1,13 +1,13 @@
-# Target Brazil E-commerce SQL Analysis
+Target Brazil E-commerce SQL Analysis
 
-## 📌 Project Overview
+ 📌 Project Overview
 This project analyzes **100,000+ e-commerce orders** from Target Brazil (2016–2018) using SQL.  
 The dataset covers customer details, order status, product attributes, payment information, freight performance, and delivery times.  
 The objective was to uncover trends, customer behavior, and operational insights to support data-driven decision-making.
 
 ---
 
-## 📂 Dataset
+📂 Dataset
 The dataset consists of 8 CSV files:
 - `customers.csv`
 - `sellers.csv`
@@ -18,45 +18,42 @@ The dataset consists of 8 CSV files:
 - `orders.csv`
 - `products.csv`
 
----
 
-## 🛠️ Tools & Technologies
-- **SQL** (MySQL Workbench / PostgreSQL)
+🛠️ Tools & Technologies
+- SQL** (MySQL Workbench)
 - Dataset size: 100,000+ orders
 - Time Period: 2016–2018
 
----
 
-## 📊 Analysis Performed
-1. **Initial Exploration**
+ 📊 Analysis Performed
+1. Initial Exploration
    - Data types & structure
    - Customer city & state count
    - Order date range
 
-2. **Trends & Patterns**
+2. Trends & Patterns
    - Yearly and monthly order trends
    - Time-of-day order distribution
 
-3. **E-commerce Evolution**
+3. E-commerce Evolution
    - Month-on-month state-wise orders
    - State-wise customer distribution
 
-4. **Economic Impact**
+4. Economic Impact
    - % change in payment value (2017 vs 2018)
    - State-wise average order price & freight
 
-5. **Sales, Freight & Delivery**
+5. Sales, Freight & Delivery
    - Delivery time vs estimated time
    - Fastest delivery states
    - Freight cost comparison
 
-6. **Payments**
+6. Payments
    - Payment type trends
    - Installment-based order counts
 
----
 
-## 📌 Key Insights
+ 📌 Key Insights
 - Afternoon is the peak time for orders in Brazil 🇧🇷
 - São Paulo leads in both order count and total payment value
 - Certain states deliver **3+ days faster** than estimated
@@ -64,12 +61,8 @@ The dataset consists of 8 CSV files:
 
 ---
 
-## 📷 Screenshots
+📷 Screenshots
 Screenshots of query outputs are available in the `/screenshots/` folder.
 
 ---
 
-## 📥 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/Target-Brazil-SQL-Analysis.git
